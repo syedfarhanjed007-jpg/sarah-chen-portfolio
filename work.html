@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Work — Sarah Chen</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◆</text></svg>">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">Sarah Chen</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="work.html" class="active">Work</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="nav-hamburger" aria-label="Menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <div class="nav-mobile">
+    <a href="index.html">Home</a>
+    <a href="work.html">Work</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <h1 class="reveal">Selected Work</h1>
+    <p class="reveal">A curated collection of projects spanning brand identity, web design, and motion graphics.</p>
+  </header>
+
+  <!-- Filters & Projects -->
+  <section class="section" style="padding-top: 0;">
+    <div class="work-filters reveal">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="brand">Brand</button>
+      <button class="filter-btn" data-filter="web">Web</button>
+      <button class="filter-btn" data-filter="motion">Motion</button>
+    </div>
+
+    <div class="projects-grid">
+      <div class="project-card reveal" data-category="brand" data-color="sand" data-project="bloom">
+        <span class="project-card-number">01</span>
+        <p class="project-card-cat">Brand Identity</p>
+        <h3 class="project-card-title">Bloom Botanicals</h3>
+        <p class="project-card-desc">Complete visual identity for a premium plant care startup blending botanical art with modern minimalism.</p>
+      </div>
+
+      <div class="project-card reveal" data-category="web" data-color="terracotta" data-project="meridian">
+        <span class="project-card-number">02</span>
+        <p class="project-card-cat">Web Design</p>
+        <h3 class="project-card-title">Meridian Studio</h3>
+        <p class="project-card-desc">Portfolio website for an architecture firm emphasizing spatial awareness and clean typography.</p>
+      </div>
+
+      <div class="project-card reveal" data-category="motion" data-color="earth" data-project="kinetic">
+        <span class="project-card-number">03</span>
+        <p class="project-card-cat">Motion Design</p>
+        <h3 class="project-card-title">Kinetic Festival</h3>
+        <p class="project-card-desc">Dynamic visual identity for an annual arts festival with adaptive motion graphics.</p>
+      </div>
+
+      <div class="project-card reveal" data-category="brand" data-color="sage" data-project="terra">
+        <span class="project-card-number">04</span>
+        <p class="project-card-cat">Brand Identity</p>
+        <h3 class="project-card-title">Terra Ceramics</h3>
+        <p class="project-card-desc">Brand identity for an artisan ceramics studio inspired by organic forms and earthy textures.</p>
+      </div>
+
+      <div class="project-card reveal" data-category="web" data-color="clay" data-project="aurora">
+        <span class="project-card-number">05</span>
+        <p class="project-card-cat">Web Design</p>
+        <h3 class="project-card-title">Aurora Wellness</h3>
+        <p class="project-card-desc">Wellness app interface designed to promote calm and mindfulness through soft gradients.</p>
+      </div>
+
+      <div class="project-card reveal" data-category="motion" data-color="stone" data-project="flux">
+        <span class="project-card-number">06</span>
+        <p class="project-card-cat">Motion Design</p>
+        <h3 class="project-card-title">Flux Collective</h3>
+        <p class="project-card-desc">Animated social media campaigns for a creative collective blending art and strategy.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Modal -->
+  <div class="modal-overlay">
+    <div class="modal">
+      <button class="modal-close">✕</button>
+      <p class="modal-category"></p>
+      <h2 class="modal-title"></h2>
+      <div class="modal-details">
+        <div>
+          <p class="modal-detail-label">Role</p>
+          <p class="modal-detail-value modal-role"></p>
+        </div>
+        <div>
+          <p class="modal-detail-label">Year</p>
+          <p class="modal-detail-value modal-year"></p>
+        </div>
+        <div>
+          <p class="modal-detail-label">Duration</p>
+          <p class="modal-detail-value modal-duration"></p>
+        </div>
+      </div>
+      <div class="modal-desc"></div>
+    </div>
+  </div>
+
+  <!-- Contact CTA -->
+  <section class="contact-cta">
+    <div class="contact-cta-deco contact-cta-deco-1"></div>
+    <div class="contact-cta-deco contact-cta-deco-2"></div>
+    <div class="reveal">
+      <p class="section-label">Let's Connect</p>
+      <h2>Like what<br>you see?</h2>
+      <p>Let's create something remarkable together.</p>
+      <a href="contact.html" class="btn btn-primary">Start a Project <span class="btn-arrow">→</span></a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <span class="footer-logo">Sarah Chen</span>
+      <ul class="footer-links">
+        <li><a href="work.html">Work</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <p class="footer-copy">© 2024 Sarah Chen. Designed with care in San Francisco.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
